@@ -1,6 +1,13 @@
 # Sliding-Puzzle
 Efficient Solver for N*N Sliding puzzle problem implemented in Java
 
+![1_W7jg4GmEjGBypd9WPktasQ](https://user-images.githubusercontent.com/68428319/124742971-e059a280-df3a-11eb-96b0-6dbc71399d12.gif)
+
+Node class  
+This class holds the basic Node of the tree containing the state of current matrix and different parameters used in various algorithms described below.
+
+
+
 
 Example:  
 Enter N:  

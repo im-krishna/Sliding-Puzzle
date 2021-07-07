@@ -1,15 +1,41 @@
 # Sliding-Puzzle
 Efficient Solver for N*N Sliding puzzle problem implemented in Java
 
-![1_W7jg4GmEjGBypd9WPktasQ](https://user-images.githubusercontent.com/68428319/124742971-e059a280-df3a-11eb-96b0-6dbc71399d12.gif)
+<p align="center">
+  <img width="460" height="460" src="https://user-images.githubusercontent.com/68428319/124742971-e059a280-df3a-11eb-96b0-6dbc71399d12.gif">
+</p>
+<br />
 
-Node class  
+### Node.java class    
 This class holds the basic Node of the tree containing the state of current matrix and different parameters used in various algorithms described below.
+<hr />
 
+### Check.java class
+This class checks whether a given input state of matrix is solvable or not.
+<hr />
 
+### solver.java class
+This class solves the matrix using all four algorithms Astar, IDAstar, BFS, IDDFS described in this project and compares time taken to solve the input state among these algorithms. 
+<hr />
 
+### IDAstar.java class
+This class solves the input state using the IDAstar algorithm
+<hr />
 
-Example:  
+### Astar.java class
+This class solves the input state using the Astar algorithm
+<hr />
+
+### BFS.java class
+This class solves the input state using the BFS algorithm
+<hr />
+
+### IDDFS.java class
+This class solves the input state using the IDDFS algorithm
+<hr />
+
+### Example:
+Input:
 Enter N:  
 3  
 Enter intial matrix:  
